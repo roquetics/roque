@@ -1,0 +1,7 @@
+parameters:
+#    mi.example.class: principal\miBundle\Example
+
+services:
+#    mi.example:
+#        class: %mi.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

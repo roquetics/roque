@@ -1,0 +1,4 @@
+mi:
+    resource: "@miBundle/Resources/config/routing.yml"
+    prefix:   /
+

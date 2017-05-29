@@ -1,0 +1,7 @@
+mi_homepage:
+    pattern: /index 
+    defaults: { _controller: miBundle:Default:index }
+mi_Login:
+    pattern:  /Login
+    defaults: { _controller: miBundle:Default:Login}
+    

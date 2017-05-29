@@ -1,0 +1,25 @@
+principal\miBundle\Entity\Usuario:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        nombre:
+            type: string
+            length: '100'
+            column: Nombre
+        correo:
+            type: string
+            length: '100'
+            column: Correo
+        pwd:
+            type: string
+            length: '100'
+            column: Pwd
+        tipo:
+            type: integer
+            column: Tipo
+    lifecycleCallbacks: {  }
